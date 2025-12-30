@@ -1,0 +1,1 @@
+python train.py --training --augmentation --gpu_ids 2 --checkpoints_dir ckpt --batch_size 16 --save_latest_freq 100000
