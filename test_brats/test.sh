@@ -1,0 +1,1 @@
+python brats_t1t2to.py --gpu_ids 2 --checkpoints_dir base_ckpt --which_epoch batch16_5dataset_100l1_datainfo50

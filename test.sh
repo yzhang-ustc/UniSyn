@@ -1,0 +1,1 @@
+python test.py --gpu_ids 3 --checkpoints_dir ckpt --which_epoch best
