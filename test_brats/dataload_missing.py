@@ -91,7 +91,7 @@ class BratsDataset(Dataset):
             path = self.get_path(index, 'dwi')
         if path == '':
             path = self.get_path(index, 'adc')
-        # 0:glioma 1:brats 2:ISLES2015 3:ISLES22 4:immune
+        
         dataset = torch.LongTensor([1])
 
         gt_available_mask = np.ones((6))
