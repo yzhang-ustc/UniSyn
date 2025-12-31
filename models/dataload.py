@@ -35,6 +35,7 @@ class MultiDatasets(Dataset):
         # # # random.shuffle(self.img_list)
 
         ###############################
+        # shuffle
         batch_size = 16
         with open('/home1/yuezhang/data/TT/all_list_%s.txt'%batch_size, 'r', encoding='utf-8') as f:
             lines = f.readlines()
