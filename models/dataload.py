@@ -37,7 +37,7 @@ class MultiDatasets(Dataset):
         ###############################
         # shuffle
         batch_size = 16
-        with open('/home1/yuezhang/data/TT/all_list_%s.txt'%batch_size, 'r', encoding='utf-8') as f:
+        with open('/home1/yuezhang/data/TT/file_list_b%s.txt'%batch_size, 'r', encoding='utf-8') as f:
             lines = f.readlines()
             for l in lines:
                 self.img_list.append(l.strip('\n'))
