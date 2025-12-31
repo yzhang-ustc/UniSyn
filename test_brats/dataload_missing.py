@@ -15,8 +15,7 @@ class BratsDataset(Dataset):
 
         self.root = [
             # '/home1/yuezhang/data/TT/ISLES22',
-            #          '/home1/yuezhang/data/TT/ISLES2015',
-                     '/home1/yuezhang/data/TT/brats',
+            '/home1/yuezhang/data/TT/brats',
             # '/home1/yuezhang/data/TT/glioma',
             # '/home1/yuezhang/data/TT/immune'
         ]
