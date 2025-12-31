@@ -25,7 +25,8 @@ ISLES22/
 ```
 
 ## Train
-python train.py --training --augmentation --gpu_ids 0 --checkpoints_dir ckpt --batch_size 16 --save_latest_freq 100000
+1. Use util/batch_scheduler to generate the file list, and load the list in models/dataload.py
+2. python train.py --training --augmentation --gpu_ids 0 --checkpoints_dir ckpt --batch_size 16 --save_latest_freq 100000
 
 ## Test
 python test.py --gpu_ids 0 --checkpoints_dir ckpt --which_epoch best
