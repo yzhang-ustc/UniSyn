@@ -15,7 +15,6 @@ class MultiDatasets(Dataset):
 
         self.root = [
             '/home1/yuezhang/data/TT/ISLES22',
-                     '/home1/yuezhang/data/TT/ISLES2015',
                      '/home1/yuezhang/data/TT/brats',
                      '/home1/yuezhang/data/TT/glioma',
                     '/home1/yuezhang/data/TT/immune'
@@ -108,8 +107,8 @@ class MultiDatasets(Dataset):
             dataset = torch.LongTensor([0])
         elif 'brats' in path:
             dataset = torch.LongTensor([1])
-        elif 'ISLES2015' in path:
-            dataset = torch.LongTensor([2])
+        # elif 'ISLES2015' in path:
+        #     dataset = torch.LongTensor([2])
         elif 'ISLES22' in path:
             dataset = torch.LongTensor([3])
         elif 'immune' in path:
